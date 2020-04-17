@@ -1,6 +1,6 @@
 {
     "name": "ejtj3/teams-bundle",
-    "description": "Symfony bundle integration of EJTJ3/teams-connector library",
+    "description": "Symfony bundle integration of EJTJ3/teams library",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
