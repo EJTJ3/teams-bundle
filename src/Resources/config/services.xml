@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        https://symfony.com/schema/dic/services/services-1.0.xsd">
+
+        <services>
+            <service id="ejtj3_teams.client" class="EJTJ3\Teams\Client" public="true">
+                <argument>%ejtj3_teams.endpoint%</argument>
+            </service>
+
+            <service id="EJTJ3\Teams\Client" alias="ejtj3_teams.client"/>
+        </services>
+</container>

@@ -1,0 +1,29 @@
+{
+    "name": "ejtj3/teams-bundle",
+    "description": "Symfony bundle integration of EJTJ3/teams-connector library",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evert Jan Hakvoort",
+            "email": "evertjan@hakvoort.io"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "ejtj3/teams": "0.1.1"
+    },
+    "require-dev": {
+        "matthiasnoback/symfony-dependency-injection-test": "^4.0",
+        "phpunit/phpunit": "^8.0",
+        "symfony/framework-bundle": "^3.4 || ^4.4 || ^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EJTJ3\\TeamsBundle\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
